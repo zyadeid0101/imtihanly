@@ -1,0 +1,25 @@
+{
+  "name": "imtihanly-server",
+  "version": "1.0.0",
+  "description": "Backend API for Imtihanly - adaptive Arabic quiz generator (GenAI Education Hackathon 2026), powered by Groq's free tier",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^2.2.0",
+    "pdfjs-dist": "^6.2.108"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
