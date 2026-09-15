@@ -80,11 +80,9 @@ cd server
 npm install
 ```
 
-### 2. Get a free Gemini API key
+### 2. Get a ai API key
 
-Go to **https://aistudio.google.com/apikey**, sign in with a Google
-account, click "Create API key." No credit card, no billing setup. Takes
-under a minute.
+Go to **https://aistudio.google.com/apikey**
 
 ### 3. Add your key
 
@@ -101,9 +99,6 @@ PORT=3001
 ```
 
 `gemini-2.5-flash` is the best free-tier balance of quality and rate
-limits. `gemini-2.5-pro` gives higher-quality grading but has a lower free
-rate limit (5 requests/minute) — fine for solo testing, tight for a live
-demo with judges typing answers back-to-back.
 
 ### 4. Run it
 
